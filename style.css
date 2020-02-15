@@ -1,0 +1,122 @@
+body {
+  background-color: #e8efff;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  color: #0e2482;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  color: #0e2482;
+  padding-top:none;
+}
+
+p {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 850px;
+  margin: 50px auto;
+}
+
+@media (max-width: 960px) {
+  
+  .container {
+      width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  
+  .container {
+      width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  
+  .container {
+      width: 300px;
+  }
+}
+
+.box-transparente {
+  background: #e8efff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.img-enrond {
+  border-radius: 50%;
+  border: solid 2px;
+  border-color: black;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 200px;
+  height: 200px;
+}
+
+.img-enrond:hover {
+  box-shadow: 0 2px 30px rgba(1,57,145,1);
+  transition: box-shadow .5s ease;
+}
+
+.box-white {
+  background: #ffffff;                         
+  padding: 60px;                             
+  border-radius: 4px;                        
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-bottom:35px;
+  text-align: center;
+}
+
+.box-btn {
+  margin-top: 40px;
+}
+
+.btn-tennis {
+  font-size: 40px;
+  margin-right: 5px;
+  margin-top:30px;
+}
+
+.btn-tennis:hover {
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.2);
+  transition: box-shadow .5s ease;
+  border-radius: 50%;
+}
+
+.box-social {
+  background: #e8efff;                         
+  padding: 20px;                             
+  border-radius: 4px;                        
+  margin-top: 40px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 30px;
+  color: #0e2482;
+}
+
+.list-inline i:hover {
+  color: #2748d9;
+}
